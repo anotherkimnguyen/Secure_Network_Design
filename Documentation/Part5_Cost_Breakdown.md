@@ -1,7 +1,9 @@
 ## Part 5 - Cost Breakdown and Resource Allocation
 
 ### 1. Introduction
-The network infrastructure focuses on selecting equipment that balances functionality, cost-effectiveness, and scalability.
+We selected hardware components that strike a balance between performance, scalability, and cost-efficiency. The goal was to ensure the network infrastructure is robust enough to meet the client’s needs without over-investing in unnecessarily high-end equipment. For example, we chose mid-range €600 PCs that are capable of handling day-to-day business tasks without being overly specialized. Similarly, the selection of network switches, routers, and servers reflects a thoughtful approach to balancing functionality and budget.
+
+The following is a detailed breakdown of the costs per sector.
 
 ### 2. Assumptions for Unit Costs:
 - PC: €600 each
