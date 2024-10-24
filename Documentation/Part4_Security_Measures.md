@@ -1,16 +1,11 @@
 ## Part 4 - Security Measures
 
-### 1. Introduction
-Security was a primary focus during network design, with several key measures implemented to safeguard the network’s assets and data.
+Security was a primary focus throughout the network design process, with several measures implemented to protect the network from both internal and external threats:
 
-### 2. Detailed Reasoning
-- **VLANs and ACLs**: Segmenting the network with VLANs and using ACLs limits lateral movement in the event of a breach.
-  
-- **RADIUS for Centralized Authentication**: Strong authentication protocols enforce secure access to critical network devices.
-  
-- **Password Policies and Encryption**: Strong password policies and encryption protect against brute force attacks and ensure data privacy.
+- **VLAN Segmentation**: Each department is separated by VLAN, ensuring that sensitive information from departments like Management cannot be accessed by other departments like Production or Support. This segmentation reduces the attack surface and enhances overall network security.
 
-### 3. Key Considerations
-- **Minimizing Attack Surface**: Isolating network traffic into sectors and limiting communication via ACLs significantly reduces the attack surface.
-  
-- **Centralized Authentication Benefits**: Centralized authentication through RADIUS strengthens overall security.
+- **Access Control Lists (ACLs)**: We have implemented strict ACLs on inter-VLAN traffic to control which devices can communicate across VLANs. For instance, Production VLAN traffic is blocked from accessing resources on the Management VLAN except for specific exceptions, such as print services.
+
+- **RADIUS Authentication**: The RADIUS server centralizes authentication, requiring users to authenticate before accessing any critical network device. This minimizes the risk of compromised devices, enforces strong password policies, and provides centralized management of user credentials.
+
+- **Strong Password Policies and Encryption**: We enforce strong password policies across all network devices and enable encryption protocols to secure traffic where possible, especially on the servers handling DNS, DHCP, and user authentication. This ensures that even if credentials are compromised, brute force attacks are less likely to succeed.
