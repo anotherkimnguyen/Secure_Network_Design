@@ -15,73 +15,57 @@ The following is a detailed breakdown of the costs per sector.
 - Multilayer Switch: €1500
 - Firewall/ACLs (optional): €1200 per unit or configuration
 
-### 3. Management
-- 5 PCs: 5 × €600 = €3000
+### Management
+- 4 PCs (instead of 5): 4 × €600 = €2400
 - 1 Printer: €300
 - 1 IP Phone: €100
-- 1 Switch: €400
-- **Total for Management**: €3800
+- 1 Switch: €400  
+**Total for Management**: €3200
 
-### 4. Study
+### Study
 - 8 PCs: 8 × €600 = €4800
 - 1 Printer: €300
 - 1 IP Phone: €100
-- 1 Switch: €400
-- **Total for Study**: €5600
+- 1 Switch: €400  
+**Total for Study**: €5600
 
-### 5. Server Room
+### Server Room
+- 2 Computers (moved): €1200
 - 1 Server: €2000
 - 1 Router: €800
-- 1 Multilayer Switch: €1500
-- **Total for Server Room**: €4300
+- 1 Multilayer Switch: €1500  
+**Total for Server Room**: €5500
 
-### 6. Production
+### Production
 - 10 PCs: 10 × €600 = €6000
 - 1 Printer: €300
 - 1 IP Phone: €100
-- 1 Switch: €400
-- **Total for Production**: €6800
+- 1 Switch: €400  
+**Total for Production**: €6800
 
-### 7. Support 1
+### Support 1
+- 9 PCs (instead of 10): 9 × €600 = €5400
+- 5 IP Phones: 5 × €100 = €500
+- 1 Printer: €300
+- 1 Switch: €400  
+**Total for Support 1**: €6600
+
+### Support 2
 - 10 PCs: 10 × €600 = €6000
 - 5 IP Phones: 5 × €100 = €500
 - 1 Printer: €300
-- 1 Switch: €400
-- **Total for Support 1**: €7200
+- 1 Switch: €400  
+**Total for Support 2**: €7200
 
-### 8. Support 2
-- 10 PCs: 10 × €600 = €6000
-- 5 IP Phones: 5 × €100 = €500
-- 1 Printer: €300
-- 1 Switch: €400
-- **Total for Support 2**: €7200
+### Overall Cost Breakdown
+- **Total PCs (43 PCs)**: 43 × €600 = €25,800
+- **Total Printers (5)**: 5 × €300 = €1500
+- **Total IP Phones (13)**: 13 × €100 = €1300
+- **Total Switches (6)**: 6 × €400 = €2400
+- **Server Room Equipment**: €5500  
+**Grand Total (without firewall/ACLs)**: €36,500
 
-### 9. Total Costs Per Department:
-- **Management**: €3800
-- **Study**: €5600
-- **Server Room**: €4300
-- **Production**: €6800
-- **Support 1**: €7200
-- **Support 2**: €7200
+### Adding firewall/ACL costs:
+- **Physical Firewalls**: €42,500
+- **Virtual ACL configuration**: €36,500 + €1200 = €37,700
 
-### 10. Overall Cost Breakdown (without firewall/ACLs):
-- Total PCs (43 PCs): 43 × €600 = €25,800
-- Total Printers (5 Printers): 5 × €300 = €1500
-- Total IP Phones (13 IP Phones): 13 × €100 = €1300
-- Total Switches (6 Switches): 6 × €400 = €2400
-
-- **Server Room Equipment**:
-  - Server: €2000
-  - Router: €800
-  - Multilayer Switch: €1500
-  - **Total for Server Room**: €4300
-
-### 11. Grand Total (without firewall/ACLs):
-€25,800 (PCs) + €1500 (Printers) + €1300 (IP Phones) + €2400 (Switches) + €4300 (Server Room) = €35,300
-
-### 12. Adding Firewall/ACL Costs:
-- **Option 1**: Physical Firewalls: Deploying 6 firewalls (one per section/department) at €1200 each:  
-  - 6 × €1200 = €7200  
-  - **Total with Physical Firewalls**: €35,300 + €7200 = €42,500
-
-- **Option 2**: ACL/Virtual Firewalls: Configure virtual firewalls or ACLs on the router/s
