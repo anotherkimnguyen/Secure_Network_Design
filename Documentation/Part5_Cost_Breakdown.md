@@ -69,3 +69,4 @@ The following is a detailed breakdown of the costs per sector.
 - **Physical Firewalls**: €42,500
 - **Virtual ACL configuration**: €36,500 + €1200 = €37,700
 
+Deploying physical firewalls at the perimeter of the network provides crucial protection against external threats such as denial-of-service (DoS) attacks. By inspecting and filtering incoming and outgoing traffic, these firewalls prevent malicious traffic from reaching the internal network, safeguarding critical infrastructure from external attacks. The cost of €1,200 per unit is justified by the enhanced security and peace of mind they offer, especially for sensitive operations conducted within the Management and Server Room VLANs.
