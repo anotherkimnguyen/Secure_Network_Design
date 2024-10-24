@@ -16,11 +16,11 @@ The following is a detailed breakdown of the costs per sector.
 - Firewall/ACLs (optional): €1200 per unit or configuration
 
 ### Management
-- 4 PCs (instead of 5): 4 × €600 = €2400
+- 5 PCs (instead of 5): 5 × €600 = €3000
 - 1 Printer: €300
 - 1 IP Phone: €100
 - 1 Switch: €400  
-**Total for Management**: €3200
+**Total for Management**: €3800
 
 ### Study
 - 8 PCs: 8 × €600 = €4800
@@ -30,11 +30,10 @@ The following is a detailed breakdown of the costs per sector.
 **Total for Study**: €5600
 
 ### Server Room
-- 2 Computers (moved): €1200
 - 1 Server: €2000
 - 1 Router: €800
 - 1 Multilayer Switch: €1500  
-**Total for Server Room**: €5500
+**Total for Server Room**: €4300
 
 ### Production
 - 10 PCs: 10 × €600 = €6000
@@ -44,11 +43,11 @@ The following is a detailed breakdown of the costs per sector.
 **Total for Production**: €6800
 
 ### Support 1
-- 9 PCs (instead of 10): 9 × €600 = €5400
+- 10 PCs: 10 × €600 = €6000
 - 5 IP Phones: 5 × €100 = €500
 - 1 Printer: €300
 - 1 Switch: €400  
-**Total for Support 1**: €6600
+**Total for Support 1**: €7200
 
 ### Support 2
 - 10 PCs: 10 × €600 = €6000
