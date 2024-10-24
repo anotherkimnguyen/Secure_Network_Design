@@ -17,7 +17,7 @@ The IP addressing scheme is designed with subnetting principles in mind, assigni
 The network architecture implements strict security protocols, including Access Control Lists (ACLs) and RADIUS-based centralized authentication to ensure sensitive areas of the network are protected. Additional measures, such as strong password policies and encryption, further secure the infrastructure.
 
 ### 5. Cost Efficiency:
-The overall cost of the network, amounting to $35,300, was kept within budget without sacrificing performance or security. Key components, such as Layer 3 switches and virtualized servers for DNS and DHCP, were chosen based on their ability to balance cost-effectiveness with high functionality.
+The overall cost of the network, amounting to €36,500, was kept within budget without sacrificing performance or security. Key components, such as Layer 3 switches and virtualized servers for DNS and DHCP, were chosen based on their ability to balance cost-effectiveness with high functionality.
 
 ### 6. Scalability and Flexibility:
 The architecture is designed to be scalable, allowing new departments or sectors to be added with minimal reconfiguration. The modular use of VLANs and Layer 3 routing ensures future growth can be supported without major overhauls.
