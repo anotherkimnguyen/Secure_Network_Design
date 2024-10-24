@@ -2,6 +2,8 @@
 
 This report presents the design and implementation of a secure, efficient, and scalable network for a client relocating to a new office. The network infrastructure was tailored to meet the specific needs of the client’s departments, including Management, Study, Production, and Support. The design ensures robust security, performance optimization, and cost-effectiveness while allowing room for future scalability. The network design was simulated using Cisco Packet Tracer and the key components include VLAN segmentation, inter-VLAN routing, centralized IP management with DHCP, and RADIUS-based authentication for security.
 
+In today’s cybersecurity landscape, ensuring a secure network architecture is critical to protect against internal and external threats. Common vulnerabilities, such as data breaches, man-in-the-middle (MITM) attacks, and unauthorized access, necessitate a multi-layered defense approach. This network design prioritizes security by implementing VLAN segmentation, ACLs, and RADIUS authentication, providing robust protection while maintaining performance and scalability.
+
 ### 1. VLAN Segmentation:
 The network is divided into multiple VLANs, each assigned to a specific sector. This segmentation reduces broadcast traffic, improves performance, and enhances security by isolating sensitive data between departments.
 
