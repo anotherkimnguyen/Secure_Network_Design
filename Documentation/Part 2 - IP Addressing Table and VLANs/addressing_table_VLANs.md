@@ -17,9 +17,9 @@ The network uses a structured IP addressing schema to assign specific subnets to
     Vlan30                 192.168.10.130                         
     Vlan40                 192.168.10.194                         
     Vlan50                 192.168.11.2
-    G1/0/1:                10.0.0.2/30
-    G1/0/2:                8.8.8.1/8
-    G1/0/8:                192.100.1.1/30
+        -  G1/0/1:                10.0.0.2/30
+        -  G1/0/2:                8.8.8.1/8
+        -  G1/0/8:                192.100.1.1/30
   
 -**ROUTER**:     
         G0/0/0:  10.0.0.1/30
