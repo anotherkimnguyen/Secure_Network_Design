@@ -18,6 +18,8 @@ The IP addressing scheme is designed with subnetting principles in mind, assigni
 ### 4. Security Measures:
 The network architecture implements strict security protocols, including Access Control Lists (ACLs) and RADIUS-based centralized authentication to ensure sensitive areas of the network are protected. Additional measures, such as strong password policies and encryption, further secure the infrastructure.
 
+Access Control Lists (ACLs) are a critical security measure to prevent unauthorized traffic between VLANs. They help block IP spoofing by ensuring that only trusted devices can communicate between sectors. For example, we’ve implemented ACLs to block all SSH traffic to Management VLAN devices from untrusted IP ranges, thereby reducing the attack surface and preventing potential exploitation of management resources.
+
 ### 5. Cost Efficiency:
 The overall cost of the network, amounting to $35,300, was kept within budget without sacrificing performance or security. Key components, such as Layer 3 switches and virtualized servers for DNS and DHCP, were chosen based on their ability to balance cost-effectiveness with high functionality.
 
