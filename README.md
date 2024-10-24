@@ -2,8 +2,6 @@
 
 This report presents the design and implementation of a secure, efficient, and scalable network for a client relocating to a new office. The network infrastructure was tailored to meet the specific needs of the client’s departments, including Management, Study, Production, and Support. The design ensures robust security, performance optimization, and cost-effectiveness while allowing room for future scalability. The network design was simulated using Cisco Packet Tracer and the key components include VLAN segmentation, inter-VLAN routing, centralized IP management with DHCP, and RADIUS-based authentication for security.
 
-VLAN segmentation not only improves performance by reducing broadcast traffic but also provides security benefits. By isolating departments in different VLANs, we reduce the risk of lateral movement in case of a breach. For example, if malware infects a device in the Study VLAN, it cannot spread to other departments such as Management or Production. This is crucial for preventing the spread of internal phishing attacks or unauthorized data access.
-
 In today’s cybersecurity landscape, ensuring a secure network architecture is critical to protect against internal and external threats. Common vulnerabilities, such as data breaches, man-in-the-middle (MITM) attacks, and unauthorized access, necessitate a multi-layered defense approach. This network design prioritizes security by implementing VLAN segmentation, ACLs, and RADIUS authentication, providing robust protection while maintaining performance and scalability.
 
 ### 1. VLAN Segmentation:
@@ -17,8 +15,6 @@ The IP addressing scheme is designed with subnetting principles in mind, assigni
 
 ### 4. Security Measures:
 The network architecture implements strict security protocols, including Access Control Lists (ACLs) and RADIUS-based centralized authentication to ensure sensitive areas of the network are protected. Additional measures, such as strong password policies and encryption, further secure the infrastructure.
-
-Access Control Lists (ACLs) are a critical security measure to prevent unauthorized traffic between VLANs. They help block IP spoofing by ensuring that only trusted devices can communicate between sectors. For example, we’ve implemented ACLs to block all SSH traffic to Management VLAN devices from untrusted IP ranges, thereby reducing the attack surface and preventing potential exploitation of management resources.
 
 ### 5. Cost Efficiency:
 The overall cost of the network, amounting to $35,300, was kept within budget without sacrificing performance or security. Key components, such as Layer 3 switches and virtualized servers for DNS and DHCP, were chosen based on their ability to balance cost-effectiveness with high functionality.
