@@ -1,16 +1,8 @@
 ## Part 3 - Device Configuration
 
-### 1. Introduction
-Key devices like switches, routers, and servers are configured with security in mind, adhering to best practices such as strong passwords, encryption, and remote authentication via RADIUS.
+Key network devices were configured with security and performance in mind, following best practices for a secure and maintainable network infrastructure:
 
-### 2. Detailed Reasoning
-- **Layer 3 Switches for Inter-VLAN Routing**: Instead of traditional routers, Layer 3 switches handle inter-VLAN routing, providing faster performance and reducing the number of devices needed.
-  
-- **DHCP Server**: Configured with scopes for each VLAN, the DHCP server simplifies device configuration and network management.
-
-- **DNS Server**: Configuring a DNS server ensures name resolution for internal resources, simplifying network navigation for users.
-
-### 3. Security Focus
-- **ACL Implementation**: Access Control Lists (ACLs) restrict traffic between VLANs based on predefined policies.
-  
-- **RADIUS Authentication**: Centralized authentication using RADIUS ensures secure user access before they can interact with network devices.
+- **Layer 3 Switches**: These were configured to handle inter-VLAN routing. By routing traffic locally within the switches, we reduced the need for additional routers and improved traffic flow efficiency.
+- **DHCP Server**: Configured with multiple scopes, one per VLAN, the DHCP server dynamically assigns IP addresses to client machines, streamlining device configuration across the network.
+- **DNS Server**: Provides internal name resolution for resources, simplifying navigation for users by translating domain names to IP addresses within the private network.
+- **RADIUS Authentication**: Centralized authentication through the RADIUS server enforces strong user authentication policies for network device access, ensuring only authorized personnel can access critical systems like switches, routers, and servers.
