@@ -30,10 +30,10 @@ The following is a detailed breakdown of the costs per sector.
 **Total for Study**: €5600
 
 ### Server Room
-- 1 Server: €2000
+- 3 Servers: 3 x €2000 = €6000
 - 1 Router: €800
 - 1 Multilayer Switch: €1500  
-**Total for Server Room**: €4300
+**Total for Server Room**: €8300
 
 ### Production
 - 10 PCs: 10 × €600 = €6000
@@ -57,15 +57,10 @@ The following is a detailed breakdown of the costs per sector.
 **Total for Support 2**: €7200
 
 ### Overall Cost Breakdown
-- **Total PCs (43 PCs)**: 43 × €600 = €25,800
-- **Total Printers (5)**: 5 × €300 = €1500
-- **Total IP Phones (13)**: 13 × €100 = €1300
-- **Total Switches (6)**: 6 × €400 = €2400
-- **Server Room Equipment**: €5500  
-**Grand Total (without firewall/ACLs)**: €36,500
+**Grand Total (without firewall/ACLs)**: €38,900
 
 ### Adding firewall/ACL costs:
-- **Physical Firewalls**: €42,500
-- **Virtual ACL configuration**: €36,500 + €1200 = €37,700
+- **Physical Firewalls**: €44,900
+- **Virtual ACL configuration**: €38,900 + €1200 = €40,100
 
 Deploying physical firewalls at the perimeter of the network provides crucial protection against external threats such as denial-of-service (DoS) attacks. By inspecting and filtering incoming and outgoing traffic, these firewalls prevent malicious traffic from reaching the internal network, safeguarding critical infrastructure from external attacks. The cost of €1,200 per unit is justified by the enhanced security and peace of mind they offer, especially for sensitive operations conducted within the Management and Server Room VLANs.
