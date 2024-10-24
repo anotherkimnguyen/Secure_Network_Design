@@ -1,6 +1,6 @@
 ## Network Design and Architecture - Summary
 
-This project outlines the design and implementation of a secure, efficient, and scalable network for a client relocating to a new office space. The goal was to create a structured, robust, and cost-effective network infrastructure that caters to the unique needs of various sectors, including Management, Study, Production, and Support. The project was simulated using Cisco Packet Tracer and involved the following key elements:
+This report presents the design and implementation of a secure, efficient, and scalable network for a client relocating to a new office. The network infrastructure was tailored to meet the specific needs of the client’s departments, including Management, Study, Production, and Support. The design ensures robust security, performance optimization, and cost-effectiveness while allowing room for future scalability. The network design was simulated using Cisco Packet Tracer and the key components include VLAN segmentation, inter-VLAN routing, centralized IP management with DHCP, and RADIUS-based authentication for security.
 
 ### 1. VLAN Segmentation:
 The network is divided into multiple VLANs, each assigned to a specific sector. This segmentation reduces broadcast traffic, improves performance, and enhances security by isolating sensitive data between departments.
