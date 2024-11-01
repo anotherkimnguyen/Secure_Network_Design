@@ -13,11 +13,6 @@ Key network devices were configured with security and performance in mind, follo
           -Configured to limit the acces from outside the network to inside through ACL list.
           - Outsider clients have only access to the iSCSI storage server and the support section.
 
-**FTP** :
-        -Contains the bin file of L3 switch and Router in case of losing the configuration
-**SysLog**:
-        -to register every session inside the router and the switch 
-**Switches**:
-        -handles the layer 2 traffic to reduce the load of the L3 switch.
-        -Connect ther devices with each other.
-    
+- **FTP** : Contains the bin file of L3 switch and Router in case of losing the configuration
+- **SysLog**: Registers every session inside the router and the switch 
+- **Switches**: Handle layer 2 traffic to reduce the load of the L3 switch and connect ther devices with each other.
