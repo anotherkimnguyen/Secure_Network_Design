@@ -28,4 +28,3 @@ The network uses a structured IP addressing schema to assign specific subnets to
 
 
 Inter-VLAN routing is handled by Layer 3 switches, ensuring seamless communication between departments while still maintaining traffic segmentation. Specific Access Control Lists (ACLs) further restrict unnecessary communication between certain VLANs, protecting sensitive resources like Management’s assets from being accessed by Production or Support sectors.
-
